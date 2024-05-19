@@ -8,6 +8,7 @@
 import Foundation
 
 enum TaskSection: Identifiable, CaseIterable, Hashable {
+    
     case all
     case done
     case upcoming
@@ -24,7 +25,6 @@ enum TaskSection: Identifiable, CaseIterable, Hashable {
             case .list(let taskGroup):
                 taskGroup.id.uuidString
         }
-        return ""
     }
     
     var displayName: String {
@@ -38,7 +38,6 @@ enum TaskSection: Identifiable, CaseIterable, Hashable {
             case .list(let taskGroup):
                 taskGroup.title
         }
-        return ""
     }
         
     var iconName: String {
@@ -52,7 +51,6 @@ enum TaskSection: Identifiable, CaseIterable, Hashable {
             case .list(_):
                 "folder"
         }
-        return ""
     }
         
     static var allCases: [TaskSection] {
