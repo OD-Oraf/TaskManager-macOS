@@ -13,30 +13,10 @@
 		6EE02DEA2BA533E70036F2BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE02DE92BA533E70036F2BD /* ContentView.swift */; };
 		6EE02DEC2BA533E90036F2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE02DEB2BA533E90036F2BD /* Assets.xcassets */; };
 		6EE02DEF2BA533E90036F2BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE02DEE2BA533E90036F2BD /* Preview Assets.xcassets */; };
-		6EE02DFA2BA533E90036F2BD /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE02DF92BA533E90036F2BD /* TaskManagerTests.swift */; };
-		6EE02E042BA533E90036F2BD /* TaskManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE02E032BA533E90036F2BD /* TaskManagerUITests.swift */; };
-		6EE02E062BA533E90036F2BD /* TaskManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE02E052BA533E90036F2BD /* TaskManagerUITestsLaunchTests.swift */; };
 		6EE02E142BA534CB0036F2BD /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE02E132BA534CB0036F2BD /* Task.swift */; };
 		6EE02E162BA555750036F2BD /* TaskGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE02E152BA555750036F2BD /* TaskGroup.swift */; };
 		6EE02E182BA558590036F2BD /* TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE02E172BA558590036F2BD /* TaskSection.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		6EE02DF62BA533E90036F2BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EE02DDC2BA533E70036F2BD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6EE02DE32BA533E70036F2BD;
-			remoteInfo = TaskManager;
-		};
-		6EE02E002BA533E90036F2BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EE02DDC2BA533E70036F2BD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6EE02DE32BA533E70036F2BD;
-			remoteInfo = TaskManager;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		6E620F512BF9A1DD00B7D67A /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
@@ -47,11 +27,6 @@
 		6EE02DEB2BA533E90036F2BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EE02DEE2BA533E90036F2BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EE02DF02BA533E90036F2BD /* TaskManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TaskManager.entitlements; sourceTree = "<group>"; };
-		6EE02DF52BA533E90036F2BD /* TaskManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EE02DF92BA533E90036F2BD /* TaskManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerTests.swift; sourceTree = "<group>"; };
-		6EE02DFF2BA533E90036F2BD /* TaskManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EE02E032BA533E90036F2BD /* TaskManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITests.swift; sourceTree = "<group>"; };
-		6EE02E052BA533E90036F2BD /* TaskManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6EE02E132BA534CB0036F2BD /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		6EE02E152BA555750036F2BD /* TaskGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroup.swift; sourceTree = "<group>"; };
 		6EE02E172BA558590036F2BD /* TaskSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskSection.swift; sourceTree = "<group>"; };
@@ -65,20 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE02DF22BA533E90036F2BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EE02DFC2BA533E90036F2BD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,8 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				6EE02DE62BA533E70036F2BD /* TaskManager */,
-				6EE02DF82BA533E90036F2BD /* TaskManagerTests */,
-				6EE02E022BA533E90036F2BD /* TaskManagerUITests */,
 				6EE02DE52BA533E70036F2BD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,8 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				6EE02DE42BA533E70036F2BD /* TaskManager.app */,
-				6EE02DF52BA533E90036F2BD /* TaskManagerTests.xctest */,
-				6EE02DFF2BA533E90036F2BD /* TaskManagerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,23 +80,6 @@
 				6EE02DEE2BA533E90036F2BD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		6EE02DF82BA533E90036F2BD /* TaskManagerTests */ = {
-			isa = PBXGroup;
-			children = (
-				6EE02DF92BA533E90036F2BD /* TaskManagerTests.swift */,
-			);
-			path = TaskManagerTests;
-			sourceTree = "<group>";
-		};
-		6EE02E022BA533E90036F2BD /* TaskManagerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				6EE02E032BA533E90036F2BD /* TaskManagerUITests.swift */,
-				6EE02E052BA533E90036F2BD /* TaskManagerUITestsLaunchTests.swift */,
-			);
-			path = TaskManagerUITests;
 			sourceTree = "<group>";
 		};
 		6EE02E122BA534890036F2BD /* Model */ = {
@@ -172,42 +112,6 @@
 			productReference = 6EE02DE42BA533E70036F2BD /* TaskManager.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6EE02DF42BA533E90036F2BD /* TaskManagerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6EE02E0C2BA533E90036F2BD /* Build configuration list for PBXNativeTarget "TaskManagerTests" */;
-			buildPhases = (
-				6EE02DF12BA533E90036F2BD /* Sources */,
-				6EE02DF22BA533E90036F2BD /* Frameworks */,
-				6EE02DF32BA533E90036F2BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6EE02DF72BA533E90036F2BD /* PBXTargetDependency */,
-			);
-			name = TaskManagerTests;
-			productName = TaskManagerTests;
-			productReference = 6EE02DF52BA533E90036F2BD /* TaskManagerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6EE02DFE2BA533E90036F2BD /* TaskManagerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6EE02E0F2BA533E90036F2BD /* Build configuration list for PBXNativeTarget "TaskManagerUITests" */;
-			buildPhases = (
-				6EE02DFB2BA533E90036F2BD /* Sources */,
-				6EE02DFC2BA533E90036F2BD /* Frameworks */,
-				6EE02DFD2BA533E90036F2BD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6EE02E012BA533E90036F2BD /* PBXTargetDependency */,
-			);
-			name = TaskManagerUITests;
-			productName = TaskManagerUITests;
-			productReference = 6EE02DFF2BA533E90036F2BD /* TaskManagerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -216,18 +120,10 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					6EE02DE32BA533E70036F2BD = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					6EE02DF42BA533E90036F2BD = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 6EE02DE32BA533E70036F2BD;
-					};
-					6EE02DFE2BA533E90036F2BD = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 6EE02DE32BA533E70036F2BD;
 					};
 				};
 			};
@@ -245,8 +141,6 @@
 			projectRoot = "";
 			targets = (
 				6EE02DE32BA533E70036F2BD /* TaskManager */,
-				6EE02DF42BA533E90036F2BD /* TaskManagerTests */,
-				6EE02DFE2BA533E90036F2BD /* TaskManagerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,20 +152,6 @@
 			files = (
 				6EE02DEF2BA533E90036F2BD /* Preview Assets.xcassets in Resources */,
 				6EE02DEC2BA533E90036F2BD /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EE02DF32BA533E90036F2BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EE02DFD2BA533E90036F2BD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,37 +172,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE02DF12BA533E90036F2BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6EE02DFA2BA533E90036F2BD /* TaskManagerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6EE02DFB2BA533E90036F2BD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6EE02E042BA533E90036F2BD /* TaskManagerUITests.swift in Sources */,
-				6EE02E062BA533E90036F2BD /* TaskManagerUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6EE02DF72BA533E90036F2BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6EE02DE32BA533E70036F2BD /* TaskManager */;
-			targetProxy = 6EE02DF62BA533E90036F2BD /* PBXContainerItemProxy */;
-		};
-		6EE02E012BA533E90036F2BD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6EE02DE32BA533E70036F2BD /* TaskManager */;
-			targetProxy = 6EE02E002BA533E90036F2BD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		6EE02E072BA533E90036F2BD /* Debug */ = {
@@ -358,9 +208,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -418,9 +270,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -447,7 +301,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskManager/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GN48NLYR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -455,6 +311,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = odoraf.TaskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,7 +329,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskManager/Preview Content\"";
+				DEVELOPMENT_TEAM = 2GN48NLYR7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -480,79 +339,12 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = odoraf.TaskManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		6EE02E0D2BA533E90036F2BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = odoraf.TaskManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskManager";
-			};
-			name = Debug;
-		};
-		6EE02E0E2BA533E90036F2BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = odoraf.TaskManagerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaskManager.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TaskManager";
-			};
-			name = Release;
-		};
-		6EE02E102BA533E90036F2BD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = odoraf.TaskManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = TaskManager;
-			};
-			name = Debug;
-		};
-		6EE02E112BA533E90036F2BD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = odoraf.TaskManagerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = TaskManager;
 			};
 			name = Release;
 		};
@@ -573,24 +365,6 @@
 			buildConfigurations = (
 				6EE02E0A2BA533E90036F2BD /* Debug */,
 				6EE02E0B2BA533E90036F2BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6EE02E0C2BA533E90036F2BD /* Build configuration list for PBXNativeTarget "TaskManagerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6EE02E0D2BA533E90036F2BD /* Debug */,
-				6EE02E0E2BA533E90036F2BD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6EE02E0F2BA533E90036F2BD /* Build configuration list for PBXNativeTarget "TaskManagerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6EE02E102BA533E90036F2BD /* Debug */,
-				6EE02E112BA533E90036F2BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
